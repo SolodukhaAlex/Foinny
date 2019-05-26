@@ -1,0 +1,413 @@
+body{
+    font-family: 'Roboto', sans-serif; 
+}
+@font-face {
+    font-family: Myriad Pro; /* Гарнитура шрифта */
+    src: url(../Fonts/MyriadPro-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+   @font-face {
+    font-family: Exo;
+    src: url(../Fonts/Exo-Regular.ttf);
+   }
+   @font-face {
+    font-family: Exo-Black;
+    src: url(../Fonts/Exo-Black.ttf);
+   }
+   
+.first-screen{
+    width: 100vw;
+    min-height: 100vh;
+    background: url(../Images/back.jpg) center top;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+header{
+    height: 120px;
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    margin-left: 45px;
+    font-family: 'Myriad Pro';
+    color: #fffcf4;
+    font-size: 36px;
+}
+header h1 span{
+    color: #1dde85;
+}
+header ul{
+  margin-right: 120px;
+}
+header ul li{
+    display: inline-block;
+    
+}
+header ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Myriad Pro';
+    font-size: 14px;
+    color: #fffcf4;
+    padding: 5px 16px;
+}
+header ul li a:hover{
+    border-bottom: 1px solid #1dde85;
+    color: #1dde85;
+}
+.main-information {
+    color: #fffcf4;
+    text-align: center;
+    margin: 260px auto 0;
+}
+span.exo{
+    font-family: 'Exo';
+}
+span.rob{
+    font-weight: 400;
+}
+span.exo-black{
+    font-family: 'Exo-Black';
+    color: #1dde85;
+}
+.main-information p{
+font-weight: 300;
+}
+.about-foinni{
+    background-color: #fffcf4;
+    padding-top: 130px;
+    margin: 0 auto;
+    color: #454546;
+    text-align: center
+}
+.about-foinni span{
+    color: #1dde85;
+}
+.advantages{
+    width: 1170px;
+    margin: 85px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.item-advantages{
+    margin-bottom: 50px;
+    width: 355px;
+    height: 250px;
+    border: 2px solid #c3c1bf;
+    cursor: pointer;
+}
+.item-advantages i{
+    margin-top: 40px;
+    font-size: 30px;
+}
+.item-advantages p{
+    font-weight: 300;
+}
+.advantages :hover{
+    border: 2px solid #1dde85;
+}
+.advantages :hover i,
+.advantages :hover h2
+{
+    color:#1dde85;
+    border: none;
+}
+.advantages :hover p{
+    border: none;
+}
+.Us{
+    width: 1170px;
+    color: #454546;
+    margin: 0 auto;
+    text-align: center;
+}
+.test{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #454546;
+}
+.staffs{
+    
+    margin: 80px 20px 0 0;
+    height: 350px;
+    width: 270px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.staffs img{
+    position: absolute;
+    width: 270px;
+    height: 350px;
+}
+.name-staff{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: rgba(69, 69, 70, .94);
+    transition-duration:0.6s;
+}
+.name-staff p{
+    font-size: 18px;
+    color: #fffcf4;
+}
+.name-staff p span{
+    font-weight: 300;
+}
+.soc-info{
+    border-top: 1px solid #fffcf4;
+    border-bottom: 1px solid #fffcf4;
+    width: 270px;
+    height: 50px;
+    bottom: -30%;
+    transition-duration:0.6s;
+}
+.soc-info a{
+    text-decoration: none;
+    color: #fffcf4;
+    
+}
+.soc-info a i{
+    font-size: 25px;
+    margin-right: 20px;
+    margin-left: 15px;
+    padding-top: 12px;
+}
+
+.staffs:hover .name-staff{
+    height: 350px;
+    background: rgba(29, 222, 133, .8);
+    
+}
+.staffs:hover .name-staff p{
+    margin-top: 60%;
+}
+.staffs:hover .soc-info{
+    position: absolute;
+    bottom: 20%;
+}
+.our-work{
+    width: 1170px;
+    margin: 145px auto 0;
+    text-align: center;
+    color: #454546;
+}
+
+.our-work nav ul li{
+    display: inline-block; 
+    padding: 5px 10px;
+}
+.our-work nav ul li a{
+    text-decoration: none;
+    color: #454546;
+    
+}
+.our-work nav ul li a span{
+    color: #1dde85;
+    border-bottom: 1px solid #1dde85;
+}
+.our-work-img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.our-work-img img{
+    width: 390px;
+    margin-bottom: 50px;
+}
+.our-work button{
+    background: #1dde85;
+    color: #fffcf4;
+    width: 195px;
+    height: 50px;
+    border: none;
+}
+.price{
+    width: 1170px;
+    height: 630px;
+    text-align: center;
+    margin: 120px auto 0;
+    color: #454546;
+}
+.prices{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.item-price{
+    color: #8f8e91;
+    font-weight: 300;
+    width: 265px;
+    height: 420px;
+}
+.item-price p{
+    margin-bottom: 30px;
+}
+.actual-prise{
+    margin-bottom: 30px;
+    display: block;
+    width: 100%;
+    height: 90px;
+    border: 1px solid #9c9a97;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 90px;
+    color: #454546;
+}
+.actual-prise sub{
+    font-weight: normal;
+
+}
+.item-price button{
+    padding: 10px 15px;
+    background: none;
+    border: none;
+    border: 1px solid #9c9a97;
+    cursor: pointer;
+}
+.important-price p:first-child{
+    color: #1dde85;
+}
+.important-price .actual-prise,
+.important-price button{
+    background: #1dde85;
+    color: #fffcf4;
+    border: none;
+}
+.border-important{
+    width: 100%;
+    height: 420px;
+    border: 1px solid #1dde85;
+}
+.form-client{
+    text-align: center;
+    height: 500px;
+    background: url(../Images/formBackground.jpg) center center;
+}
+.content-form{
+    padding-top: 40px;
+    width: 1170px;
+    margin: 0 auto;
+}
+.content-form h2{
+    color: #fffcf4;
+}
+
+.content-form form input{
+    width: 446px;
+    height: 50px;
+    background: none;
+    border: 1px solid #979796;
+    margin-bottom: 30px;
+}
+.content-form form input:focus{
+    border: 1px solid #1dde85;
+    color: #fffcf4;
+}
+.content-form form textarea{
+    resize: none;
+    margin: 0 auto;
+    display: block;
+    background: none;
+    border: 1px solid #979796;
+}
+::-webkit-input-placeholder {
+    padding-left: 15px;
+    padding-top: 10px;
+    font-style: italic;
+    font-weight: bold;
+    color: #c3c1bf;
+}
+.content-form form button{
+    margin-top: 17px;
+    background: #1dde85;
+    color: #fffcf4;
+    width: 195px;
+    height: 50px;
+    border: none;
+}
+footer{
+    height: 330px;
+    background: #0b0a0a;
+   
+}
+.all-info{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about-us{
+    flex-basis: 355px;
+}
+.about-us h3,
+.quick-link h3,
+.find-us h3{
+    color: #fffcf4;
+}
+.about-us p{
+    color: #89888b;
+    font-weight: 300;
+    line-height: 27px;
+}
+.quick-link{
+    flex-basis: 185px;
+}
+.quick-link ul{
+    column-count: 2;
+    padding-left: 0;
+    vertical-align: top;
+}
+.quick-link ul li{
+  
+   list-style-type: none;
+   padding-bottom: 20px;
+   
+}
+.quick-link ul li a{
+   text-decoration: none;
+   height: 200px;
+   color: #89888b;
+   font-weight: 200;
+ }
+
+ .coc{
+     display: inline-block;
+ }
+ .coc a{
+    color: #8f8e91;
+ }
+ .coc a i{
+     font-size: 30px;
+ }
+ .find-us form input{
+    width: 250px;
+    height: 40px;
+    background: none;
+    border: 1px solid #979796;
+    margin-bottom: 30px;
+    color: #fffcf4;
+}
+.find-us button{
+    background: #1dde85;
+    color: #fffcf4;
+    width: 105px;
+    height: 35px;
+    border: none;
+}
+
+
+
+
